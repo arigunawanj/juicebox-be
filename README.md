@@ -31,7 +31,7 @@ A comprehensive RESTful API built with Laravel 12, featuring authentication, CRU
 - `GET /api/users/{id}` - Get specific user with posts (requires authentication)
 
 ### Weather
-- `GET /api/weather` - Get current weather data for Jakarta, Indonesia
+- `GET /api/weather` - Get current weather data for Perth, Australia
 
 ## Setup Instructions
 
@@ -176,7 +176,7 @@ All API responses follow a consistent format:
 ## Performance Optimizations
 
 - Database query optimization with eager loading
-- Response caching for Jakarta weather data (15 minutes)
+- Response caching for Perth weather data (15 minutes)
 - Pagination for list endpoints
 - Background job processing for heavy operations
 
